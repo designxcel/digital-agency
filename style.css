@@ -107,10 +107,12 @@ li {
     align-items: center;
     justify-content: space-between;
     width: 500px;
+    
 }
 .author-image{
     display: flex;
     align-items: center;
+    border-right: 2px solid rgb(216, 21, 21);
 }
 
 .author-image img{
@@ -118,6 +120,9 @@ li {
     height: 70px;
     border-radius: 30px;
     margin-right: 10px;
+}
+.author-image h4{
+    margin-right: 50px;
 }
 
 .btn-secondary{
@@ -161,4 +166,115 @@ li {
 
 .service-box img{
     margin-top: 80px;
+}
+
+.top-box{
+    width: 75%;
+    padding: 15px;
+    height: 150px;
+    background-color: rgb(245, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    border-radius: 15px;
+    margin-top:-85px;
+    color: white;
+}
+.top-box-asset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+
+}
+.top-box-asset img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+.desc{
+    /* width: 60%; */
+    /* margin: ; */
+    padding: 10px;
+    width: 550px;
+    text-align: justify;
+}
+
+.btn-appointment{
+    /* margin-right: 150px; */
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 50px;
+    color:rgb(216, 21, 21);
+}
+.main-blog{
+    height: 800px;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.blogs-caption{
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.blogs-caption h1{
+    font-size: 45px;
+}
+
+.blog-element{
+    width:350px;
+    /* height: 600px; */
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+}
+
+.blog-element img{
+    width:350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-element h2{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.blog-element p{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+.main-footer{
+    background-image: url('asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9));
+    height: 700px;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-right-desc{
+    width: 400px;
 }
